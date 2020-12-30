@@ -5,6 +5,7 @@
 import SwiftUI
 import Nuke
 
+/// - WARNING: This is an API preview. It is not battle-tested yet and might signficantly change in the future.
 public final class FetchImage: ObservableObject, Identifiable {
     /// Returns the fetched image.
     ///
@@ -39,7 +40,7 @@ public final class FetchImage: ObservableObject, Identifiable {
 
     private let pipeline: ImagePipeline
     private var task: ImageTask?
-    private var loadedImageQuality: ImageQuality? = nil
+    private var loadedImageQuality: ImageQuality?
     
     private enum ImageQuality {
         case regular, low
