@@ -8,8 +8,10 @@
 
 `FetchImage` makes it easy to download images using [Nuke](https://github.com/kean/Nuke) and display them in SwiftUI apps.
 
-**Update.** Starting with [Nuke 10.0](https://github.com/kean/Nuke/releases/tag/10.0.0), `FetchImage` class is now part of the main framework. You can find the documenation at [Nuke Docs: SwiftUI](https://kean.blog/nuke/guides/swiftui).
+## Update
 
-# License
+Starting with [Nuke 10.0](https://github.com/kean/Nuke/releases/tag/10.0.0), `FetchImage` class is now part of the main framework. You can find the documenation at [Nuke Docs: SwiftUI](https://kean.blog/nuke/guides/swiftui).
+
+## License
 
 FetchImage is available under the MIT license. See the LICENSE file for more info.
